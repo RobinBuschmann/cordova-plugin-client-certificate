@@ -57,10 +57,11 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="ClientCertificate">
-        <param name="android-package" value="org.apache.cordova.plugin.clientcert.ClientCertificate"/>
+        <param name="android-package" value="org.apache.cordova.clientcertificate.ClientCertificate"/>
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <source-file src="src/android/ClientCertificate.java" target-dir="src/org/apache/cordova/plugin/"/>
+    <source-file src="src/android/lientCertificate.java"
+                 target-dir="src/org/apache/cordova/clientcertificate/"/>
   </platform>
 </plugin>
