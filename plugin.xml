@@ -61,7 +61,7 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <source-file src="src/android/lientCertificate.java"
+    <source-file src="src/android/ClientCertificate.java"
                  target-dir="src/org/apache/cordova/clientcertificate/"/>
   </platform>
 </plugin>
